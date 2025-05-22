@@ -151,6 +151,9 @@ div.logo > a {
     text-decoration: none;
     color: #333;
     letter-spacing: .1em;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    /* font-size: var(--fs-h2); */
+    font-weight: var(--fw-bold);
 }
 
 .nav {
