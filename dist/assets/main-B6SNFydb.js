@@ -1,0 +1,1 @@
+import"./style-BR6lRCUo.js";const n=document.querySelector(".nav-toggle"),o=document.querySelectorAll(".nav__link");n.addEventListener("click",()=>{document.body.classList.toggle("nav-open")});o.forEach(e=>{e.addEventListener("click",()=>{document.body.classList.remove("nav-open")})});
