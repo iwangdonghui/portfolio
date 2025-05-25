@@ -1,61 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevDonghui Portfolio Website</title> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <script type="module" crossorigin src="/assets/style-BR6lRCUo.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/style-CmQH_57v.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <a href="index.html#work">&lt;donghuidev&gt;</a>
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="intro portfolio-intro">
-        <h1 class="section__title section__title--intro" id="project-title">
-            Project Title
-        </h1>
-        <p class="section__subtitle section__subtitle--intro" id="project-subtitle">Project Subtitle</p>
-        <img src="img/placeholder.jpg" alt="Project image" class="intro__img" id="project-image">
-    </section>
-    
-    <div class="portfolio-item-individual">
-        <div id="project-description">
-            <p>Project description goes here...</p>
-        </div>
-        <div id="project-tech">
-            <h3>Technologies Used:</h3>
-            <ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevDonghui Portfolio Website</title> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <script type="module" crossorigin src="/assets/portfolio-xp28kito.js"></script>
+      <link rel="modulepreload" crossorigin href="/assets/style-BR6lRCUo.js">
+      <link rel="stylesheet" crossorigin href="/assets/style-CmQH_57v.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html#work">&lt;donghuidev&gt;</a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
                 </ul>
-        </div>
-        <div class="portfolio-links">
-             <a href="#" id="live-link" class="btn" target="_blank">View Live Project</a>
-             <a href="#" id="repo-link" class="btn" target="_blank">View Code on GitHub</a>
-        </div>
-    </div>
-    
-    <footer class="footer">
-        <a href="mailto:hello@donghui.dev" class="footer__link">hello@donghui.dev</a>
-        <ul class="social-list">
-            </ul>
-    </footer>
+            </nav>
+        </header>
 
-    <script src="js/portfolio-loader.js" defer></script> 
-    <script src="js/index.js" defer></script> 
-</body>
+        <section class="intro portfolio-intro">
+            <h1 class="section__title section__title--intro" id="project-title">
+                Project Title
+            </h1>
+            <p class="section__subtitle section__subtitle--intro" id="project-subtitle">Project Subtitle</p>
+            <img src="img/placeholder.jpg" alt="Project image" class="intro__img" id="project-image">
+        </section>
+        
+        <!-- <div class="portfolio-item-individual">
+            <div id="project-description">
+                <p>Project description goes here...</p>
+            </div>
+            <div id="project-tech">
+                <h3>Technologies Used:</h3>
+                <ul>
+                </ul>
+            </div>
+            <div class="portfolio-links">
+                <a href="#" id="live-link" class="btn" target="_blank">View Live Project</a>
+                <a href="#" id="repo-link" class="btn" target="_blank">View Code on GitHub</a>
+            </div>
+        </div> -->
+
+        <div class="portfolio-item-individual">
+            <div class="portfolio-links">
+                <a class="btn" target="_blank" id="live-link" href="https://github.com/iwangdonghui/movie-watchlist"><i class="fab fa-github"></i> GitHub Repo</a>
+                <a class="btn" target="_blank" id="live-link" href="https://newmoviewatchlist.netlify.app/"><i class="fas fa-eye"></i> Live version   </a>
+            </div>
+            <div id="project-description">
+                <p>Project description goes here...</p>
+            </div>
+            <div id="project-tech">
+                <h3>Technologies Used:</h3>
+                <ul></ul>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <a href="mailto:wangdonghui@proton.me" class="footer__link">wangdonghui@proton.me</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://x.com/wangdonghuiibt">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/iwangdonghui">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+ 
+        <script src="js/index.js" defer></script> 
+    </body>
 </html>

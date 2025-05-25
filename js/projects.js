@@ -7,8 +7,8 @@ export const projectsData = [
         imgSrc: './img/oldagram-square.png',
         description: 'This project is a fun clone of a popular social media platform, focusing on front-end structure and styling.',
         tech: ['HTML', 'CSS', 'JavaScript'],
-        liveLink: '#', // Add live link here
-        repoLink: '#'  // Add repo link here
+        liveLink: '#', 
+        repoLink: '#'  
     },
     {
         id: 'tenzies',
